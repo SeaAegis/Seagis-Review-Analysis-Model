@@ -90,9 +90,6 @@ def recommend_beach(reviews):
         recommendation = "Based on the reviews analysis it is Not recommended to visit this beach."
 
     return {
-        # 'positive_reviews': positive_reviews,
-        # 'negative_reviews': negative_reviews,
-        # 'neutral_reviews': neutral_reviews,
         'recommendation': recommendation
     }
 
@@ -131,8 +128,6 @@ def analyze():
 
         # Prepare response
         response = {
-            # 'analyzed_reviews': analyzed_reviews,  # Sentiment scores per review
-            # 'sentiments': result_list,  # Review texts and their sentiments (Positive, Negative, etc.)
             'recommendation': recommendation_result,  # Final beach visit recommendation
             'summary': summary_report  # Summarized review text
         }
